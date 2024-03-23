@@ -1,0 +1,30 @@
+.task-card{
+    background-color: #66a3ff;
+    width: 300px;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.task-title{
+    font-size: 18px;
+    font-weight: 400;
+    margin: 2px;
+}
+
+.delete-icon{
+    height: 20px;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.task-category{
+    position: absolute;
+    right: 40px;
+    font-size: 12px;
+    text-align: center;
+}
